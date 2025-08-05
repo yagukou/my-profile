@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"
+    <title>自己紹介ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>こんにちは！</h1>
+    <p>私は工学院大学機械システム工学科の矢口航基です。</ｐ>
+
+    <h2>趣味</h2>
+    <p>プログラミング、バスケ、旅行</p>
+
+    <h2>リンク</h2>
+    <p>
+        <a href="https://github.com/あなたのGithub">Githubはこちら</a>
+    </p>
+
+    <h2>写真</h2>
+    <img src="myphoto.jpg" alt="自分の写真" width="200">
+
+    <h2>計算アプリ</h2>
+    <p>２つの数字を入力して足し算します。</p>
+
+    <input type="number" id="num1" placeholder="1つ目の数字">
+    <input type="number" id="num2" placeholder="2つ目の数字">
+    <button onclick="calculate()">計算する</button>
+
+    <p id="result">計算結果がここに表示されます</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>色が変わるページ</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            transition: background-color 0.5s;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>ボタンを押すと背景色が変わります</h2>
+    <button onclick="changeColor()">色を変える</button>
+
+    <script src="script.js"></script>
+</body> 
+</html>
